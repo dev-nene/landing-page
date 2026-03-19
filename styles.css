@@ -8,12 +8,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header{
+.header {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  width: 80%;
 }
 
 .header__logo {
@@ -30,4 +37,56 @@ body {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1F2937;
+  height: 80vh;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  width: 550px;
+}
+
+.hero__title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero__subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-wrap: wrap;
+}
+
+.hero__button {
+  font-size: 18px;
+  background-color: #3882F6;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.hero__image__wrapper {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
