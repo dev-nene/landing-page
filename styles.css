@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header__logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header__links {
+  display: flex;
+  gap: 16px;
+}
+
+.header__link {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
