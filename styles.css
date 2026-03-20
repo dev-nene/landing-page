@@ -166,3 +166,40 @@ body {
   align-self: end;
   font-size: 24px;
 }
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.cta__wrapper {
+  background-color: #3882F6;
+  color: #fff;
+  width: 1100px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.cta__title {
+  font-size: 24px;
+}
+
+.cta__text {
+  font-size: 12px;
+  color: #F9FAF8;
+}
+
+.cta__button {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background-color: #3882F6;
+  padding: .5rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+}
