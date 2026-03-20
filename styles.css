@@ -136,3 +136,33 @@ body {
   width: 150px;
   text-align: center;
 }
+
+.testimonial {
+  background-color: #E5E7EB;
+  height: 600px;
+  margin-top: 7rem;
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial__wrapper {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial__text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimonial__credits {
+  align-self: end;
+  font-size: 24px;
+}
